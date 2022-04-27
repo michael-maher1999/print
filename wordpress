@@ -1,0 +1,78 @@
+link for website:
+https://printdeg.com/new/ar/about/
+
+contact form:
+</div>
+<div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="input-box">
+            <h5>Your Full Name</h5>
+            <div class="input-text mb-35">
+                [text Name class:form-control placeholder "Full Name Here"]
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="input-box mb-35">
+            <h5>Your Email Address</h5>
+            <div class="input-text input-mail">
+                [email email class:form-control placeholder "Email Here"]
+            </div>
+        </div>
+    </div>
+
+ <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="input-box mb-35">
+            <h5>Your Phone</h5>
+            <div class="input-text input-phone">
+                 [tel tel-906 class:form-control placeholder "Phone Here"]
+            </div>
+        </div>
+    </div>
+   
+    <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="input-box mb-35">
+            <h5>Subject</h5>
+            <div class="input-text input-sub">
+                [text Subject class:form-control placeholder "I Would Like To"]
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="input-box mb-35">
+            <h5>Leave A Message</h5>
+            <div id=contact-messageform-body1 class="input-text input-message">
+                [textarea Body id:contact-messageform-body placeholder "Write Your Message"]
+            </div>
+        </div>
+    </div>
+
+
+ <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="input-box mb-35">
+            <h5>Attach File</h5>
+            <div class="input-text input-sub">
+        
+[file file-1 limit:10000000 filetypes:pdf|txt|doc|docx class:form-control]            
+</div>
+        </div>
+    </div>
+ 
+    <div class="col-xl-12 col-lg-12 col-md-6">
+        <div class="msg-btn text-md-center">
+   [submit class:button id:form-submit "Submit"]
+        </div>
+    </div>
+</div>
+<label> Your name
+    [text* your-name] </label>
+
+<label> Your email
+    [email* your-email] </label>
+
+<label> Subject
+    [text* your-subject] </label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+[submit "Submit"]
